@@ -1,0 +1,32 @@
+###################################
+GARCIA AVILA RODRIGO
+GRUPO : 4CM3
+###################################
+
+1) Ejecutar servidor en equipo LINUX con java version "11.0.4" (al menos es la que tengo instalada y me funcionó)
+
+    $ javac Servidor.java && java Servidor
+
+
+2 ) Ejecutar cliente en equipo LINUX.
+
+
+    $ make cliente
+    
+    $ ./cliente <IP>
+
+
+NOTA: 
+
+    1) Puede que el servidor tire una 'exception', sin embargo el programa sigue ejecunatndose
+    sin problemas, en caso de que no lo haga, volver a compilar y ejecutar.
+    en mi caso funcionanba sin priblemas aun con la exception.
+
+    2) Puede que al correr el servidor solo se abra la ventana, pero no se pinte la grafica,
+    basta con volver a compilar y ejecutar el servidor.java
+
+    3) En la carpeta 'evidencia' anexo una captura de panatalla con la versión de java en mi equipo
+    y un pequeño video con su funcionamieno.
+
+
+    4) Tanto el cliente como el servidor tienen el puerto por defecto 9005
